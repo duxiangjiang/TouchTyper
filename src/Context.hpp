@@ -46,7 +46,7 @@ struct TestSettings {
     bool usePunctuation = false;
     bool useNumbers = false;
     TestMode testMode = TestMode::TIME;
-    std::vector<int> testModeAmounts = {120, 60, 30, 15};
+    std::vector<int> testModeAmounts = {300, 120, 60, 30};
     int selectedAmount = 1;
 };
 
