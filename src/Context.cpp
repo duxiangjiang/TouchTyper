@@ -78,16 +78,16 @@ void Context::load() {
     std::string base = GetApplicationDirectory();
 
     // Load fonts
-    this->fonts.typingTestFont.size = 64;
+    this->fonts.typingTestFont.size = 40;
     this->fonts.typingTestFont.font = LoadFontEx((base+"assets/fonts/JetBrainsMono-Regular.ttf").c_str(),
             this->fonts.typingTestFont.size, nullptr, 0);
-    this->fonts.titleFont.size = 80;
+    this->fonts.titleFont.size = 48;
     this->fonts.titleFont.font = LoadFontEx((base+"assets/fonts/LexendDeca-Regular.ttf").c_str(),
             this->fonts.titleFont.size, nullptr, 0);
-    this->fonts.tinyFont.size = 36;
+    this->fonts.tinyFont.size = 28;
     this->fonts.tinyFont.font = LoadFontEx((base+"assets/fonts/JetBrainsMono-Regular.ttf").c_str(),
             this->fonts.tinyFont.size, nullptr, 0);
-    this->fonts.bigFont.size = 150;
+    this->fonts.bigFont.size = 90;
     this->fonts.bigFont.font = LoadFontEx((base+"assets/fonts/JetBrainsMono-Regular.ttf").c_str(),
             this->fonts.bigFont.size, nullptr, 0);
 
